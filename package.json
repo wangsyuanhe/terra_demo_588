@@ -1,6 +1,15 @@
 {
   "name": "tterra-garden",
   "version": "1.0.0",
-  "scripts": { "start": "node index.js" },
-  "dependencies": { "express": "^4.19.2" }
+  "description": "The Garden - Terra Labs Demo Day App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
